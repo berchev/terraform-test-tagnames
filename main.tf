@@ -3,3 +3,9 @@ resource "random_pet" "phoenix" {
     always = uuid()
   }
 }
+
+resource "random_pet" "phoenix2" {
+  keepers = {
+    always = uuid()
+  }
+}
